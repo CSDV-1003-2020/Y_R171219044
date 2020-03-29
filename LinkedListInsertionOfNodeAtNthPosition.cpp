@@ -10,7 +10,7 @@ struct Node
 
 Node* head;
 
-void insertion(int data,int n)//insert to insertion change 
+void insertion(int data,int n)//insert to insertion change by Y_R171219044
 {
 	Node* temp1=new Node;
 	temp1->data=data;
