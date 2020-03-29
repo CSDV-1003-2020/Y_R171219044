@@ -10,7 +10,7 @@ struct Node
 
 Node* head;
 
-void insert(int data,int n)
+void insertion(int data,int n)//insert to insertion change by Y_R171219044
 {
 	Node* temp1=new Node;
 	temp1->data=data;
@@ -46,10 +46,10 @@ void print()
 int main()
 {
 	head=NULL;
-	insert(2,1);
-	insert(3,2);
-	insert(4,1);
-	insert(5,2);
+	insertion(2,1);
+	insertion(3,2);
+	insertion(4,1);
+	insertion(5,2);
 	print();
 return 0;
 }
