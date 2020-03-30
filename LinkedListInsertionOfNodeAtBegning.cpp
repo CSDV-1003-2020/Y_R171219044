@@ -14,7 +14,16 @@ struct Node
 	temp->next=head;
 	head=temp;
 }
-
+void Print()
+{
+	Node* temp = head;
+	while(temp!=NULL)
+	{
+		cout<<" "<< temp->data;
+		temp=temp->next;
+	}
+	cout<<" ";
+}
 
 
 
@@ -29,7 +38,7 @@ int main()
 		cout<<" Enter the number to be entered ";
 		cin>>x;
 		Insert(x);
-		
-	}
+		}
+	print();
 return 0;
 }
