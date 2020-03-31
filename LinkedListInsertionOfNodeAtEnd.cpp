@@ -27,7 +27,14 @@ void Insert(int x)
         last->next = newnode;
    }
 }
-	
+void Print()
+{
+	while (head != NULL) {
+        cout<<head->data<<"->";
+        head = head->next;
+    }
+    cout<<"NULL"<<endl;
+}	
 
 
 int main()
