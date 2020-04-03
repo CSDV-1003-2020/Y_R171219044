@@ -2,14 +2,14 @@
 using namespace std;
 int add(int a,int b)
 {
-int s=a+b;
-return s;
+int kk=a+b;
+return k;
 }
 
 int main()
 {
-int a,b,s;
-s=add(a,b);
-cout<<s;
+int a,b,k;
+k=add(a,b);
+cout<<k;
 return 0;
 }
